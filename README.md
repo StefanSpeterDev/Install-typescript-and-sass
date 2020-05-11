@@ -15,3 +15,11 @@ sass --watch <fichier_source.scss>:<fichier_final.css> --style compressed
 
 Créer un fichier nom.cmd <br>
 Mettre la commande dedans puis dans la console il suffit de taper le nom du fichier pour éxecuter la commande
+
+# Install typescript
+
+npm i -g typescript
+
+# Run typescript
+
+tsc -w <fichier.ts>
