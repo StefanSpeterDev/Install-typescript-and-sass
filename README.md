@@ -5,8 +5,9 @@ npm install -g sass
 Pour l'installer globalement
 
 # Run sass
-sass --watch <fichier_source.scss>:<fichier_final.css> --style compressed
+`Dans répertoire de notre fichier`
 
+sass --watch <fichier_source.scss>:<fichier_final.css> --style compressed
 
 --watch : will update each time we change something in the code
 --style compressed : minify the css
@@ -21,5 +22,6 @@ Mettre la commande dedans puis dans la console il suffit de taper le nom du fich
 npm i -g typescript
 
 # Run typescript
+`Dans répertoire de notre fichier`
 
 tsc -w <fichier.ts>
